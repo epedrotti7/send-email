@@ -1,6 +1,6 @@
 
 
-projeto simples de envio de emails para estudo em java utilizando Spring
+projeto simples de envio de emails para estudo em java utilizando Spring e jakarta.mail
 
 pra rodar: 
 
