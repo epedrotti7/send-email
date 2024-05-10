@@ -1,9 +1,11 @@
 package sendemail;
 
+import java.util.List;
+
 public class Email {
 
     private String from;
-    private String to;
+    private List<String> to;
     private String subject;
     private String content;
 
@@ -15,11 +17,11 @@ public class Email {
         this.from = from;
     }
 
-    public String getTo() {
+    public List<String> getTo() {
         return this.to;
     }
 
-    public void setTo(String to) {
+    public void setTo(List<String> to) {
         this.to = to;
     }
 
@@ -38,5 +40,4 @@ public class Email {
     public void setContent(String content) {
         this.content = content;
     }
-
 }
